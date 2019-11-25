@@ -32,7 +32,6 @@ def listener():
     t.set_gss_host(socket.getfqdn(""))
     t.load_server_moduli()
     t.add_server_key(host_key)
-    t.local_version = "OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)"
     
     server = Server()
     t.start_server(server=server)
