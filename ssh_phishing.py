@@ -12,6 +12,7 @@ class Server(paramiko.ServerInterface):
     def check_auth_password(self, username, password):
         print "Username: " + username
         print "Password: " + password
+        print "-" * 30
         return paramiko.AUTH_FAILED
         
     def get_allowed_auths(self, username):
