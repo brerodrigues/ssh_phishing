@@ -5,6 +5,8 @@ import sys
 import threading
 import paramiko
 
+# This is a PoC, dont expect good programming practices
+
 class Server(paramiko.ServerInterface):
     def __init__(self):
         self.event = threading.Event()
