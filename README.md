@@ -1,6 +1,7 @@
 # ssh_phishing
 
 A python script that creates a dummy ssh server. Send to your friends to get credentials.
+
 To generate a key use: `ssh-keygen -t rsa -b 4096 -C 'bre@rodri.guez' -f rsa_key`
 
 ### The server
