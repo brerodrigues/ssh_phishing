@@ -4,10 +4,12 @@ A python script that creates a dummy ssh server. Send to your friends to get cre
 
 To generate a key use: `ssh-keygen -t rsa -b 4096 -C 'bre@rodri.guez' -f rsa_key`
 
+Run with the key file and port as argument: `python3 ssh_phishing.py rsa_key 6666`
+
 ### The server
 ```
-$ python ssh_phishing.py rsa_key
-Waiting for connections...
+$ python ssh_phishing.py rsa_key 6666
+Waiting for connections on port 6666...
 Connection from: 127.0.0.1
 Waiting for authentication...
 Username: m.user
