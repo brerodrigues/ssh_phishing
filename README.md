@@ -24,7 +24,7 @@ Password: 123456
 
 ### The victim
 ```
-$ ssh m.user@localhost -p 2222
+$ ssh m.user@localhost -p 6666
 m.user@localhost's password: 
 Permission denied, please try again.
 m.user@localhost's password: 
